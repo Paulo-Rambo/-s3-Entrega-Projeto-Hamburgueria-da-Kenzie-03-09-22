@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+.mainContainer {
+  padding: var(--container-4);
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 420px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+}

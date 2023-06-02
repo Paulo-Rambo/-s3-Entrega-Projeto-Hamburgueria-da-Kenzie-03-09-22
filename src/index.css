@@ -1,0 +1,43 @@
+html,
+body,
+div,
+img,
+h1,
+h2,
+h3,
+p,
+section,
+nav,
+aside,
+header,
+input,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-grey-1: #333333;
+  --color-grey-2: #828282;
+  --color-grey-3: #f5f5f5;
+  --color-grey-4: #e0e0e0;
+  --color-grey-5: #bdbdbd;
+  --color-price-1: #27ae60;
+  --color-price-hover: #53c984;
+  --button-text-color-1: white;
+  --card-radius-1: 5px;
+  --button-radius-1: 8px;
+  --container-2: 25vw;
+  --container-3: 1.2vw;
+  --container-4: 0 8vw 0 8vw;
+  --container-5: 0 18px 0 18px;
+  --container-6: 0 10px 0 10px;
+}
+
+body {
+  margin: 0;
+  font-family: Inter;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
